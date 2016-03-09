@@ -2,29 +2,24 @@
 This is a fork of Mochawesome(MochawesomePlusPlus) reporter with added screenshots functionality for Protractor.
 A reporter takes a screenshot after each failed Protractor test.
 
-Installation of the module is fairly straight forward:
-_**npm install mochawesome-screenshots**_
-
+Installation of the module:
+```
+$ npm install mochawesome-screenshots --save-dev
+```
 
 Usage remains the same as the Mocahwesome.
 
-e.g. Programatically:
+In your Protractor configuration file:
 ```
-var Mocha = require('mocha');
-// Instantiate a Mocha instance.
+  framework: 'mocha',
 
-var mocha = new Mocha({
-    ui: 'bdd',
-    reporter: 'mochawesome-screenshots',
-    reporterOptions: {
-    reportDir: './',
-    reportName: 'testResults_'
-    },
-    timeout: 60000
-    });
+  mochaOpts: {
+      reporter: 'mochawesome-screenshots',
+      reporterOptions: {
+          reportDir: 'customReportDir',
+          reportName: 'customReportName',
+          reportTitle: 'customReportTitle'
+      },
+      timeout: 600000
+  },
 ```
-
-or 
-
-via Command line:
-**_mocha test.js --reporter mochawesome-screenshots_**
