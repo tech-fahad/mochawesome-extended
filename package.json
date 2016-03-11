@@ -31,7 +31,11 @@
     "mocha": "*",
     "moment": "^2.9.0",
     "ncp": "^1.0.1",
-    "node-uuid": "^1.4.1"
+    "node-uuid": "^1.4.1",
+    "diff": "^1.4.0",
+    "debug": "^2.2.0",
+    "glob": "^7.0.3",
+    "util": "^0.10.3"
   },
   "devDependencies": {
     "bootstrap": "^3.3.2",
