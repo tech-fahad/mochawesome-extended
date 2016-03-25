@@ -13,6 +13,7 @@
   },
   "keywords": [
     "mocha",
+    "mochawesome",
     "protractor",
     "screenshot",
     "reporter",
