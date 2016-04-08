@@ -1,6 +1,9 @@
 #Changelog
 
-###1.0.2
+###1.0.4
+fixes dependencies
+
+###1.0.3
 added catch for webdriver crash
 
 ###1.0.1
