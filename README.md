@@ -18,7 +18,9 @@ In your Protractor configuration file:
       reporterOptions: {
           reportDir: 'customReportDir',
           reportName: 'customReportName',
-          reportTitle: 'customReportTitle'
+          reportTitle: 'customReportTitle',
+          takePassedScreenshot: false,
+          clearOldScreenshots: true
       },
       timeout: 600000
   },
