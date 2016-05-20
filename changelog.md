@@ -1,5 +1,8 @@
 #Changelog
 
+###1.0.6
+added file length limit
+
 ###1.0.5
 take passed screenshots option
 
