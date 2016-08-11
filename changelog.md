@@ -1,5 +1,8 @@
 #Changelog
 
+###1.4.1
+clean pending tests
+
 ###1.4.0
 fork of mochavesome version 1.4.0
 
