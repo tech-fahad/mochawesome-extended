@@ -1,5 +1,8 @@
 #Changelog
 
+###1.4.2
+add jsonReport option
+
 ###1.4.1
 clean pending tests
 
