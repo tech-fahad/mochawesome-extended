@@ -1,6 +1,6 @@
 #Changelog
 
-###1.4.2
+###1.4.3
 add jsonReport option
 
 ###1.4.1

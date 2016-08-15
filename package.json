@@ -1,6 +1,6 @@
 {
   "name": "mochawesome-screenshots",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "A Gorgeous HTML/CSS Reporter for Mocha.js",
   "scripts": {
     "test": "gulp build"
