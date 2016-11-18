@@ -1,5 +1,8 @@
 #Changelog
 
+###1.4.4
+unique screenshot files for the tests with the same name
+
 ###1.4.3
 add jsonReport option
 
