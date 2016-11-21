@@ -1,6 +1,6 @@
 #Changelog
 
-###1.4.5
+###1.4.6
 unique screenshot files for the tests with the same name
 
 ###1.4.3
@@ -10,7 +10,7 @@ add jsonReport option
 clean pending tests
 
 ###1.4.0
-fork of mochavesome version 1.4.0
+fork of mochawesome version 1.4.0
 
 ###1.0.6
 added file length limit
