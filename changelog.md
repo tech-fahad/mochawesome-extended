@@ -1,6 +1,6 @@
 #Changelog
 
-###1.4.4
+###1.4.5
 unique screenshot files for the tests with the same name
 
 ###1.4.3
