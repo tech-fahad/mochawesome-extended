@@ -1,5 +1,8 @@
 #Changelog
 
+###1.4.7
+update uuid to version 3.0.0
+
 ###1.4.6
 unique screenshot files for the tests with the same name
 
