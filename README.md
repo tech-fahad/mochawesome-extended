@@ -21,7 +21,8 @@ In your Protractor configuration file:
           reportTitle: 'customReportTitle',
           takePassedScreenshot: false,
           clearOldScreenshots: true,
-          jsonReport: false
+          jsonReport: false,
+          multiReport: false
       },
       timeout: 600000
   },

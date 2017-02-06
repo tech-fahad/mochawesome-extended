@@ -1,5 +1,8 @@
 #Changelog
 
+###1.4.8
+add multiReport option for parallel tests
+
 ###1.4.7
 update uuid to version 3.0.0
 
