@@ -1,5 +1,8 @@
 #Changelog
 
+###1.5.0
+add failed hook data to report
+
 ###1.4.8
 add multiReport option for parallel tests
 
