@@ -19,6 +19,7 @@ In your Protractor configuration file:
           reportDir: 'customReportDir',
           reportName: 'customReportName',
           reportTitle: 'customReportTitle',
+          reportPageTitle: 'customReportPageTitle',
           takePassedScreenshot: false,
           clearOldScreenshots: true,
           jsonReport: false,
@@ -27,3 +28,12 @@ In your Protractor configuration file:
       timeout: 600000
   },
 ```
+
+Use 'multiReport = true' for parallel test execution.
+
+Log data to report:
+    const logReport = require('mochawesome-screenshots/logReport');
+
+    it('Log build number', function() {
+        logReport(this, 'build number:' + buildNumber);
+    });
