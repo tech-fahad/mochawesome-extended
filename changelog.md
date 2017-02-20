@@ -1,13 +1,13 @@
 #Changelog
 
 ###1.5.1
-add log data to report
+added log data to report and ability to modify report file name from test
 
 ###1.5.0
-add failed hook data to report
+added failed hook data to report
 
 ###1.4.8
-add multiReport option for parallel tests
+added multiReport option for parallel tests
 
 ###1.4.7
 update uuid to version 3.0.0
@@ -16,7 +16,7 @@ update uuid to version 3.0.0
 unique screenshot files for the tests with the same name
 
 ###1.4.3
-add jsonReport option
+added jsonReport option
 
 ###1.4.1
 clean pending tests
