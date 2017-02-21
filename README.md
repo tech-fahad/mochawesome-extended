@@ -39,6 +39,7 @@ Use 'multiReport = true' for parallel test execution (adding timestamp in report
     });
 
 Log data to report:
+
     const logReport = require('mochawesome-screenshots/logReport');
 
     it('Log build number', function() {
