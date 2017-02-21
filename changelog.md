@@ -1,7 +1,7 @@
 #Changelog
 
 ###1.5.1
-added log data to report and ability to modify report file name from test
+added log data to report and ability to modify report file name from test or hook
 
 ###1.5.0
 added failed hook data to report

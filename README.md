@@ -30,7 +30,7 @@ In your Protractor configuration file:
 ```
 
 Use 'multiReport = true' for parallel test execution (adding timestamp in report file name),
- or change report name in tests for shardTestFiles option:
+ or change report name in tests or hooks for shardTestFiles option:
 
     const logReport = require('mochawesome-screenshots/logReport');
         
