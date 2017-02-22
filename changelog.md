@@ -1,5 +1,8 @@
 #Changelog
 
+###1.5.2
+fixes for global before hooks
+
 ###1.5.1
 added log data to report and ability to modify report file name from test or hook
 
