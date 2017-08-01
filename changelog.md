@@ -1,5 +1,8 @@
 #Changelog
 
+###1.5.3
+fixes for multiply reports
+
 ###1.5.2
 fixes for global before hooks
 
@@ -16,7 +19,7 @@ added multiReport option for parallel tests
 update uuid to version 3.0.0
 
 ###1.4.6
-unique screenshot files for the tests with the same name
+unique screenshots files for the tests with the same name
 
 ###1.4.3
 added jsonReport option
