@@ -1,5 +1,8 @@
 #Changelog
 
+###1.5.4
+fix path variable
+
 ###1.5.3
 fixes for multiply reports
 
