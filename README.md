@@ -22,6 +22,7 @@ In your Protractor configuration file:
           reportPageTitle: 'customReportPageTitle',
           takePassedScreenshot: false,
           clearOldScreenshots: true,
+          shortScrFileNames: false,
           jsonReport: false,
           multiReport: false
       },
