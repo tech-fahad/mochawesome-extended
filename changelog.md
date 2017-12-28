@@ -1,5 +1,8 @@
 #Changelog
 
+###1.5.5
+fix file path for OS X
+
 ###1.5.4
 fix path variable
 
