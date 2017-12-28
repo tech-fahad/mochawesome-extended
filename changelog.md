@@ -1,6 +1,6 @@
 #Changelog
 
-###1.5.6
+###1.5.7
 add shortSrcFileNames option
 
 ###1.5.4
