@@ -1,5 +1,8 @@
 #Changelog
 
+###1.5.8
+fix for mac os x
+
 ###1.5.7
 add shortSrcFileNames option
 
