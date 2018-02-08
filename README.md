@@ -46,3 +46,12 @@ Log data to report:
     it('Log build number', function() {
         logReport.log(this, 'build number:' + buildNumber);
     });
+
+Add custom screenshot from mochawesome-reports/screenshots folder to report:
+
+    it('Custom screenshot', function() {
+        ..
+        save screenshot to ('./mochawesome-reports/screenshots/'+imageFileName);
+        ..
+        logReport.setScreenshot(this, imageFileName);
+    });

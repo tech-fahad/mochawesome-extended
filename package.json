@@ -1,6 +1,6 @@
 {
   "name": "mochawesome-screenshots",
-  "version": "1.5.8",
+  "version": "1.5.9",
   "description": "A Gorgeous HTML/CSS Reporter for Mocha.js",
   "scripts": {
     "test": "gulp build"
@@ -60,7 +60,7 @@
     "gulp-util": "^3.0.2",
     "gulp-watch": "^4.1.0",
     "gulp-wrap": "^0.10.1",
-    "jquery": "^2.1.3",
+    "jquery": "^3.3.1",
     "jshint-stylish": "^1.0.0",
     "merge-stream": "^0.1.7",
     "mocha": "~2",

@@ -1,5 +1,8 @@
 #Changelog
 
+###1.5.9
+add ability to have custom screenshot at the report
+
 ###1.5.8
 fix for mac os x
 
