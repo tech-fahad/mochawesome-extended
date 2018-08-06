@@ -1,5 +1,8 @@
 #Changelog
 
+###1.6.0
+add ability to have multiple custom screenshots with messages at the report
+
 ###1.5.9
 add ability to have custom screenshot at the report
 
