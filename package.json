@@ -1,6 +1,6 @@
 {
   "name": "mochawesome-extended",
-  "version": "1.6.1",
+  "version": "1.6.4",
   "description": "A Gorgeous HTML/CSS Reporter for Mocha.js",
   "scripts": {
     "test": "gulp build"
@@ -9,7 +9,7 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BelAn97/mochawesome-screenshots"
+    "url": "git+https://github.com/tech-fahad/mochawesome-extended.git"
   },
   "keywords": [
     "mocha",
@@ -65,5 +65,14 @@
     "merge-stream": "^0.1.7",
     "mocha": "~2",
     "should": "^3.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/tech-fahad/mochawesome-extended/issues"
+  },
+  "homepage": "https://github.com/tech-fahad/mochawesome-extended#readme",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
   }
 }
