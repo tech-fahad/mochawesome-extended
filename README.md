@@ -13,7 +13,7 @@ In your Protractor configuration file:
   framework: 'mocha',
 
   mochaOpts: {
-      reporter: 'mochawesome-screenshots',
+      reporter: 'mochawesome-extended',
       reporterOptions: {
           reportDir: 'customReportDir',
           reportName: 'customReportName',
@@ -23,16 +23,19 @@ In your Protractor configuration file:
           clearOldScreenshots: true,
           shortScrFileNames: false,
           jsonReport: false,
-          multiReport: false
+          multiReport: false,
+          runPercantage: true
       },
       timeout: 600000
   },
 ```
 
+Use 'runPercantage = true' to calculate percentage from executed tests (i.e avoid skipped cases in calculation)
+
 Use 'multiReport = true' for parallel test execution (adding timestamp in report file name),
  or change report name in tests or hooks for shardTestFiles option:
 
-    const logReport = require('mochawesome-screenshots/logReport');
+    const logReport = require('mochawesome-extended/logReport');
         
     it('Change report name', function() {
         logReport.setReportName(this, 'customReportName');
@@ -40,7 +43,7 @@ Use 'multiReport = true' for parallel test execution (adding timestamp in report
 
 Log data to report:
 
-    const logReport = require('mochawesome-screenshots/logReport');
+    const logReport = require('mochawesome-extended/logReport');
 
     it('Log build number', function() {
         logReport.log(this, 'build number:' + buildNumber);
