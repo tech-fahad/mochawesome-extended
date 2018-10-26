@@ -5,9 +5,9 @@
   // 2 Items
   .status-item {
     .make-xs-column(6);
-    .make-sm-column(3);
+    .make-sm-column(2);
     &:first-child {
-      .make-sm-column-offset(6);
+      .make-sm-column-offset(4);
     }
   }
   // 3 Items
@@ -17,7 +17,7 @@
       .make-xs-column(4);
       .make-sm-column(3);
       &:first-child {
-        .make-sm-column-offset(3);
+        .make-sm-column-offset(0);
       }
     }
   }
@@ -25,7 +25,7 @@
   &.has-failed-hooks.has-skipped-tests {
     .status-item {
       &:first-child {
-        .make-sm-column-offset(0);
+        .make-sm-column-offset(2);
       }
     }
   }
